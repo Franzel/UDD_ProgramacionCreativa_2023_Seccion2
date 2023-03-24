@@ -15,9 +15,9 @@ function draw() {
   // }
 
   //dibujemos varias veces en filas y columnas
-  for (let i = 0; i < width; i += 10) {
-    for (let j = 0; j < height; j += 10) {
-      miFigura(10 * i, 10 * j);
+  for (let i = 0; i < 25; i++) {
+    for (let j = 0; j < 25; j++) {
+      miFigura(50 * i, 50 * j);
     }
   }
 }
